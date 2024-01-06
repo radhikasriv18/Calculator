@@ -1,0 +1,83 @@
+body {
+  background-color: #ffe7c1;
+}
+button {
+  border-radius: 20px;
+  background-color: #f3ccf3;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  font-size: 3vh;
+}
+.div1 {
+  width: 35rem;
+  height: 35rem;
+  margin-top: 70px; /* Set the top margin to 20 pixels */
+  margin-right: auto; /* Center the element horizontally */
+  margin-bottom: auto; /* Center the element vertically (optional) */
+  margin-left: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #dc84f3;
+}
+
+.display {
+  width: 30rem;
+  height: 10rem;
+  margin-top: 10px; /* Set the top margin to 20 pixels */
+  margin-right: auto; /* Center the element horizontally */
+  margin-bottom: auto; /* Center the element vertically (optional) */
+  margin-left: auto;
+  border-radius: 7px;
+  border: 2px solid black;
+  background-color: #f3ccf3;
+}
+
+.div3 {
+  width: 30rem;
+  height: 20rem;
+  margin-top: 10px; /* Set the top margin to 20 pixels */
+  margin-right: auto; /* Center the element horizontally */
+  margin-bottom: auto; /* Center the element vertically (optional) */
+  margin-left: auto;
+  display: flex;
+}
+
+.div4 {
+  width: 22rem;
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 19rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.div5 {
+  width: 10rem;
+  height: 19rem;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: grid;
+}
+
+.DisplayOperations {
+  width: 30rem;
+  height: 60px;
+  text-align: right;
+  font-size: 4vh;
+}
+
+.Result {
+  margin-top: 30px;
+  width: 30rem;
+  height: 50px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 6vh;
+}
+
+@media screen and (max-width: 800px) {
+  .div1 .display .div4 .div5 .Result .DisplayOperations {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
